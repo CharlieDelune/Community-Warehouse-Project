@@ -1,0 +1,32 @@
+.fixedImage {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 150px;
+  width:100%;
+  display:table;
+  text-align: center;
+}
+.fixedImage .titleHolder{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 4em 0;
+}
+.fixedImage .titleHolder span{
+  font-size: 3vw;
+  font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+@media only screen and (max-width: 1280px) {
+  .fixedImage .titleHolder span {
+    font-size:5vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .fixedImage .titleHolder span {
+    font-size:42px;
+  }
+}

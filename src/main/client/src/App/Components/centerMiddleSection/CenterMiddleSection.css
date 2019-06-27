@@ -1,0 +1,27 @@
+.tableHolder{
+  display:table;
+  text-align:center;
+  width:100%;
+  min-height:100px;
+  padding: 2.25em 0;
+}
+.contentHolder{
+  vertical-align: middle;
+  text-align: center;
+  width:100%;
+}
+.contentHolder p {
+  padding:1em 2em;
+  font-size:2.1vw;
+  margin:0;
+}
+@media only screen and (max-width: 768px) {
+  .contentHolder p {
+    font-size:18px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .contentHolder p {
+    font-size:28px;
+  }
+}

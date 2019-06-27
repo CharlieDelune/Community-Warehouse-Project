@@ -1,0 +1,39 @@
+.mainTitle {
+  display:table;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  text-align:center;
+}
+.titleHolder{
+  display:table-cell;
+  vertical-align: middle;
+}
+.mainTitleH1{
+  margin:0;
+  font-size:8vw;
+  font-weight:bold;
+  line-height: 1em;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.mainTitleH2{
+  margin-top:1em;
+  font-size:3vw;
+  font-weight:bold;
+  line-height: 1em;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+@media only screen and (max-width: 768px) {
+  .mainTitleH1 {
+    font-size:70px;
+  }
+  .mainTitleH2 {
+    font-size:23px;
+  }
+}
