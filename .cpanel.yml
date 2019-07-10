@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/thisguyw/public_html/staging/communityWarehouse
+    - /bin/cp -R src $DEPLOYPATH
