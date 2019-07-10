@@ -8,10 +8,10 @@ export class MainTitle extends React.Component {
       height: this.props.fullScreen ? "100vh" : "100%"
     };
     return (
-      <div class="mainTitle" style={divStyle}>
-        <div class="titleHolder">
-          <h1 class="mainTitleH1">{this.props.title}</h1>
-          <h2 class="mainTitleH2">{this.props.subtitle}</h2>
+      <div className="mainTitle" style={divStyle}>
+        <div className="titleHolder">
+          <h1 className="mainTitleH1">{this.props.title}</h1>
+          <h2 className="mainTitleH2">{this.props.subtitle}</h2>
         </div>
       </div>
     );

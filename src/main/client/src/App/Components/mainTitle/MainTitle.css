@@ -9,24 +9,21 @@
 .titleHolder{
   display:table-cell;
   vertical-align: middle;
+  background-color: rgba(0,0,0,0.33);
 }
 .mainTitleH1{
   margin:0;
   font-size:8vw;
   font-weight:bold;
   line-height: 1em;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  color:white;
 }
 .mainTitleH2{
   margin-top:1em;
   font-size:3vw;
   font-weight:bold;
   line-height: 1em;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  color: white;
 }
 @media only screen and (max-width: 768px) {
   .mainTitleH1 {

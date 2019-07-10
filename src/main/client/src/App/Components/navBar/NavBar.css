@@ -11,7 +11,7 @@
     transition: 0.33s;
 }
 #navBarHolder.unexpanded{
-    right:-245px;
+    right:-250px;
     -webkit-transition: 0.33s; /* Safari prior 6.1 */
     transition: 0.33s;
 }

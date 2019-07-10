@@ -46,9 +46,6 @@ export class NavBar extends React.Component {
                         <li>
                             <Link to="/contact">Contact Us</Link>
                         </li>
-                        <li>
-                            <Link to="/alternate">Alternate</Link>
-                        </li>
                     </ul>
                 </div>
             </div>
