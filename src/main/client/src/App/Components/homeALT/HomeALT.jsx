@@ -4,7 +4,6 @@ import "./HomeALT.css";
 import { MainTitle } from "../mainTitle/MainTitle";
 import { CenterMiddleSection } from "../centerMiddleSection/CenterMiddleSection";
 import { Button } from "../button/Button";
-import { FixedImage } from "../fixedImage/FixedImage";
 
 export class HomeALT extends React.Component {
   render() {
@@ -29,19 +28,21 @@ export class HomeALT extends React.Component {
           <div><Button text="Help A Family In Need" target="/donate"/></div>
         </CenterMiddleSection>
         <CenterMiddleSection colorBackground={true}>
-          <div style={{width:'33%', float:'left'}}>
-            <h1 style={{fontSize:'5em', marginBottom:'0'}}>150</h1>
-            <h2 style={{fontSize:'2.5em', marginTop:'0'}}>Families served last year!</h2>
+          <div className="grid">
+            <div className="grid-4">
+              <h1 className="statNumber">150</h1>
+              <h2 className="statDesc">families served last year!</h2>
+            </div>
+            <div className="grid-4">
+              <h1 className="statNumber">37</h1>
+              <h2 className="statDesc">service providers have worked with us so far!</h2>
+            </div>
+            <div className="grid-4">
+              <h1 className="statNumber">3</h1>
+              <h2 className="statDesc">Cool statistics in this div!</h2>
+            </div>
           </div>
-          <div style={{width:'33%', float:'left'}}>
-            <h1 style={{fontSize:'5em', marginBottom:'0'}}>37</h1>
-            <h2 style={{fontSize:'2.5em', marginTop:'0'}}>Service providers have chosen <u>us</u>!</h2>
-          </div>
-          <div style={{width:'33%', float:'left'}}>
-            <h1 style={{fontSize:'5em', marginBottom:'0'}}>3</h1>
-            <h2 style={{fontSize:'2.5em', marginTop:'0'}}>Cool statistics in this div!</h2>
-          </div>
-          <div style={{clear:'both'}}><Button text="Give Back To Your Community" target="/donate"/></div>
+          <div><Button text="Give Back To Your Community" target="/donate"/></div>
         </CenterMiddleSection>
         <CenterMiddleSection colorBackground={false}>
           <div>

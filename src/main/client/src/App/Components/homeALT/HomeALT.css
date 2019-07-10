@@ -1,0 +1,26 @@
+.statNumber{
+    font-size: 4.2vw;
+    margin-bottom: 0;
+}
+.statDesc{
+    font-size: 2.2vw;
+    margin-top: 0;
+}
+@media only screen and (max-width: 1000px) {
+    .statNumber{
+        font-size: 42px;
+    }
+    .statDesc{
+        font-size:22px;
+
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .statNumber{
+        font-size: 79px;
+    }
+    .statDesc{
+        font-size:42px;
+
+    }
+}

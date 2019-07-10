@@ -22,7 +22,7 @@ const Routes = () => (
         {new Date().getFullYear()}
       </div>
       <div id="devDiv">
-        Development by <a href="http://www.thisguywritescode.com/" target="_blank" title="Opens in a New Window">Jeff Kapochus</a><br />
+        Development by <a href="http://www.thisguywritescode.com/" target="_blank" title="Opens in a New Window" rel="noopener noreferrer">Jeff Kapochus</a><br />
         Design by Annae Wetherhold and Kristin Williams
       </div>
     </div>

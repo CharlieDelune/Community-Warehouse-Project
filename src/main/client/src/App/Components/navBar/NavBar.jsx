@@ -26,7 +26,7 @@ export class NavBar extends React.Component {
                             <div onClick={() => this.toggleDisplay("sublist1")}>Donate</div>
                             <ul id="sublist1" className="hidden">
                                 <li><a href="/donate/furniture">Furniture</a></li>
-                                <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NEXSN93F74GR2" target="_blank">Money</a></li>
+                                <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NEXSN93F74GR2" target="_blank" rel="noopener noreferrer">Money</a></li>
                                 <li><a href="/contact">Volunteer</a></li>
                             </ul>
                         </li>
