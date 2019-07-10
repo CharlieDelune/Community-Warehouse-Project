@@ -12,7 +12,7 @@ export class HomeALT extends React.Component {
         <MainTitle
           title="Community Warehouse Project"
           subtitle="Help Us Turn Empty Houses Into Homes"
-          imgUrl="/images/chairTableBook.jpg"
+          imgUrl={process.env.PUBLIC_URL + "/images/chairTableBook.jpg"}
           fullScreen={true}
         />
         <CenterMiddleSection colorBackground={false}>

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/staging/communityWarehouse/static/css/main.29a1be77.chunk.css",
+    "main.js": "/staging/communityWarehouse/static/js/main.bddbc526.chunk.js",
+    "main.js.map": "/staging/communityWarehouse/static/js/main.bddbc526.chunk.js.map",
+    "runtime~main.js": "/staging/communityWarehouse/static/js/runtime~main.882b771a.js",
+    "runtime~main.js.map": "/staging/communityWarehouse/static/js/runtime~main.882b771a.js.map",
+    "static/js/2.cbc6d139.chunk.js": "/staging/communityWarehouse/static/js/2.cbc6d139.chunk.js",
+    "static/js/2.cbc6d139.chunk.js.map": "/staging/communityWarehouse/static/js/2.cbc6d139.chunk.js.map",
+    "index.html": "/staging/communityWarehouse/index.html",
+    "precache-manifest.e203e8d9e34089708cce613454a39ed1.js": "/staging/communityWarehouse/precache-manifest.e203e8d9e34089708cce613454a39ed1.js",
+    "service-worker.js": "/staging/communityWarehouse/service-worker.js",
+    "static/css/main.29a1be77.chunk.css.map": "/staging/communityWarehouse/static/css/main.29a1be77.chunk.css.map"
+  }
+}

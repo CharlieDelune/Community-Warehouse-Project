@@ -13,12 +13,12 @@ export class Home extends React.Component {
         <MainTitle
           title="Community Warehouse Project"
           subtitle="Help Us Turn Empty Houses Into Homes"
-          imgUrl="/images/chairTableBook.jpg"
+          imgUrl={process.env.PUBLIC_URL + "/images/chairTableBook.jpg"}
           fullScreen={true}
         />
         <CenterMiddleSection colorBackground={true}><Button text="Help A Family In Need" target="/donate"/></CenterMiddleSection>
         <FixedImage title="What Do We Do?"
-          imgUrl="/images/tableChairs.jpeg" />
+          imgUrl={process.env.PUBLIC_URL + "/images/tableChairs.jpeg"} />
         <CenterMiddleSection colorBackground={false}>
           <p>The Community Warehouse Project of Chester County is a service organization that collects and
             redistributes donated furniture and other household items to individuals and families in need 
@@ -29,7 +29,7 @@ export class Home extends React.Component {
         </CenterMiddleSection>
         <CenterMiddleSection colorBackground={true}><Button text="Give Back To Your Community" target="/donate"/></CenterMiddleSection>
         <FixedImage title="How Do We Do It?"
-        imgUrl="/images/bed.jpg" />
+        imgUrl={process.env.PUBLIC_URL + "/images/bed.jpg"} />
         <CenterMiddleSection colorBackground={false}>
           <p>The Community Warehouse Project depends on people from the local community to volunteer, provide donations,
             including furniture, household goods and funds. Free furniture is then provided to families and individuals who

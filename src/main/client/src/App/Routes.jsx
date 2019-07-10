@@ -6,14 +6,14 @@ import { HomeALT } from "./components/homeALT/HomeALT";
 import { Status } from "./components/status/Status";
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/staging/communityWarehouse">
     <div id="header">
-      <a href="/" title="Home"><img id="headerLogo" src="/images/cwpLogo.png" alt="Community Warehouse Project of Chester County Logo"/></a>
+      <a href="/" title="Home"><img id="headerLogo" src={process.env.PUBLIC_URL + "/images/cwpLogo.png"} alt="Community Warehouse Project of Chester County Logo"/></a>
       <NavBar />
     </div>
     <div id="routerContent">
-      <Route exact path="/" component={Home} />
-      <Route exact path="/alternate" component={HomeALT} />
+      <Route exact path="/" component={HomeALT} />
+      <Route exact path="/alternate" component={Home} />
       <Route exact path="/status" component={Status} />
     </div>
     <div id="footer">
