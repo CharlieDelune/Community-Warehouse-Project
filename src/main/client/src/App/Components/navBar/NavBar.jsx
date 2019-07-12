@@ -13,7 +13,11 @@ export class NavBar extends React.Component {
     toggleDisplay(idIn){
         document.getElementById(idIn).classList.toggle("hidden");
     }
-    
+    componentDidMount(){
+        const test = document.getElementById('navBarHolder').style.height;
+        console.log("Size is: " + test);
+        //document.getElementById("routerContent").style.marginTop = document.getElementById("header").style.height;
+    }
     render() {
         return (
             <div id="navBarHolder" className="unexpanded">

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/staging/communityWarehouse/static/css/main.7202ec2e.chunk.css",
-    "main.js": "/staging/communityWarehouse/static/js/main.694ef7d6.chunk.js",
-    "main.js.map": "/staging/communityWarehouse/static/js/main.694ef7d6.chunk.js.map",
+    "main.css": "/staging/communityWarehouse/static/css/main.45cb812a.chunk.css",
+    "main.js": "/staging/communityWarehouse/static/js/main.8884e332.chunk.js",
+    "main.js.map": "/staging/communityWarehouse/static/js/main.8884e332.chunk.js.map",
     "runtime~main.js": "/staging/communityWarehouse/static/js/runtime~main.882b771a.js",
     "runtime~main.js.map": "/staging/communityWarehouse/static/js/runtime~main.882b771a.js.map",
     "static/js/2.cbc6d139.chunk.js": "/staging/communityWarehouse/static/js/2.cbc6d139.chunk.js",
     "static/js/2.cbc6d139.chunk.js.map": "/staging/communityWarehouse/static/js/2.cbc6d139.chunk.js.map",
     "index.html": "/staging/communityWarehouse/index.html",
-    "precache-manifest.03e085e07d342472d6642fb6220942ab.js": "/staging/communityWarehouse/precache-manifest.03e085e07d342472d6642fb6220942ab.js",
+    "precache-manifest.84b7f2ff6876db461e22f517f6a9d15e.js": "/staging/communityWarehouse/precache-manifest.84b7f2ff6876db461e22f517f6a9d15e.js",
     "service-worker.js": "/staging/communityWarehouse/service-worker.js",
-    "static/css/main.7202ec2e.chunk.css.map": "/staging/communityWarehouse/static/css/main.7202ec2e.chunk.css.map"
+    "static/css/main.45cb812a.chunk.css.map": "/staging/communityWarehouse/static/css/main.45cb812a.chunk.css.map"
   }
 }

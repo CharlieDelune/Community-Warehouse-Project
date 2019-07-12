@@ -1,5 +1,5 @@
 #header{
-  margin-top:-64px;
+  top:0;
   max-height:90px;
   padding-left:10px;
   position:fixed;
@@ -8,14 +8,12 @@
   border-bottom:2px solid #04B2B2;
 }
 #headerLogo{
-  height:10vw;
-  max-height:70px;
-  min-height:50px;
+  height:70px;
   margin-top:10px;
   margin-bottom:0;
 }
 #routerContent{
-  margin-top:64px;
+  margin-top:86px;
 }
 #footer{
   background-color:#04B2B2;
